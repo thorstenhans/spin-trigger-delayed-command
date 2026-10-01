@@ -1,0 +1,15 @@
+[package]
+name = "trigger-delayed-command"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+spin-factor-wasi = { git = "https://github.com/spinframework/spin" }
+spin-factors = { git = "https://github.com/spinframework/spin" }
+spin-runtime-factors = { git = "https://github.com/spinframework/spin" }
+spin-trigger = { git = "https://github.com/spinframework/spin" }
+tokio = { version = "1", features = ["full"] }
+wasmtime-wasi = { version = "49", features = ["p2"] }

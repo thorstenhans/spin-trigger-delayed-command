@@ -1,0 +1,7 @@
+name = "trigger-delayed-command"
+version = "0.1.0"
+description = "Execute WASI components to completion after a delay"
+homepage = "https://github.com/thorstenhans/spin-trigger-delayed-command"
+spin_compatibility = ">=2.0"
+license = "Apache-2.0"
+package = "target/release/trigger-delayed-command"

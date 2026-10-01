@@ -1,0 +1,14 @@
+manifest_version = "1"
+id = "delayed-command-rust"
+description = "A delayed command component using Rust"
+tags = ["delayed-command", "rust"]
+
+[add_component]
+skip_files = ["spin.toml"]
+
+[add_component.snippets]
+component = "component.txt"
+
+[parameters]
+project-description = { type = "string", prompt = "Description", default = "" }
+delay-secs = { type = "string", prompt = "Delay in seconds", default = "3" }
